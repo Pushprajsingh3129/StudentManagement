@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EduManage | Student Management System</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <div class="logo-icon">🎓</div>
+
+        <div>
+            <b>Edu<span>Manage</span></b>
+            <small>Student Management System</small>
+        </div>
+    </a>
+
+    <nav id="nav">
+
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <button class="login-btn">
+        👤 Login ▾
+    </button>
+
+    <button class="menu-btn" onclick="menu()">
+        ☰
+    </button>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-left">
+
+        <p class="welcome">
+            ✦ WELCOME TO EDUMANAGE
+        </p>
+
+        <h1>
+            Smart Student
+            <br>
+            <span>Management System</span>
+        </h1>
+
+        <p class="hero-text">
+            Manage students, attendance, results, fees and
+            academic activities from one powerful platform.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#features" class="btn-primary">
+                Get Started →
+            </a>
+
+            <button class="btn-secondary">
+                👨‍🎓 Student Login
+            </button>
+
+        </div>
+
+        <div class="hero-points">
+
+            <span>🛡️ Secure</span>
+            <span>⚡ Easy to Use</span>
+            <span>🌐 Anywhere</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-right">
+
+        <img
+        src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80"
+        class="campus"
+        alt="College Campus">
+
+        <div class="dashboard">
+
+            <div class="dash-title">
+                🎓 EduManage
+            </div>
+
+            <h3>Welcome, Admin! 👋</h3>
+
+            <div class="dash-grid">
+
+                <div>
+                    👨‍🎓
+                    <b>2,500</b>
+                    <small>Students</small>
+                </div>
+
+                <div>
+                    👨‍🏫
+                    <b>120</b>
+                    <small>Faculty</small>
+                </div>
+
+                <div>
+                    📚
+                    <b>30</b>
+                    <small>Courses</small>
+                </div>
+
+                <div>
+                    📊
+                    <b>95%</b>
+                    <small>Attendance</small>
+                </div>
+
+            </div>
+
+            <h4>Recent Activities</h4>
+
+            <p>🟢 New student registered</p>
+            <p>🟢 Fee payment received</p>
+            <p>🟠 New notice added</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- STATISTICS -->
+
+<section class="statistics">
+
+    <div>
+        <strong>2,500+</strong>
+        <span>👨‍🎓 Students</span>
+    </div>
+
+    <div>
+        <strong>30+</strong>
+        <span>📚 Courses</span>
+    </div>
+
+    <div>
+        <strong>120+</strong>
+        <span>👨‍🏫 Faculty</span>
+    </div>
+
+    <div>
+        <strong>12</strong>
+        <span>🏫 Departments</span>
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="section" id="features">
+
+    <p class="label">OUR FEATURES</p>
+
+    <h2>
+        Everything You Need to
+        <span>Manage Students</span>
+    </h2>
+
+    <p class="description">
+        A complete solution for modern educational institutions.
+    </p>
+
+
+    <div class="feature-grid">
+
+        <div class="feature-card blue">
+            <div class="icon">👨‍🎓</div>
+            <h3>Student Management</h3>
+            <p>
+                Add, edit and manage student records easily.
+            </p>
+        </div>
+
+
+        <div class="feature-card green">
+            <div class="icon">📊</div>
+            <h3>Attendance</h3>
+            <p>
+                Track student attendance with simple tools.
+            </p>
+        </div>
+
+
+        <div class="feature-card orange">
+            <div class="icon">📝</div>
+            <h3>Result Management</h3>
+            <p>
+                Manage and publish examination results.
+            </p>
+        </div>
+
+
+        <div class="feature-card purple">
+            <div class="icon">💰</div>
+            <h3>Fee Management</h3>
+            <p>
+                Track payments and pending fees.
+            </p>
+        </div>
+
+
+        <div class="feature-card yellow">
+            <div class="icon">📢</div>
+            <h3>Notice Management</h3>
+            <p>
+                Share important notices and updates.
+            </p>
+        </div>
+
+
+        <div class="feature-card pink">
+            <div class="icon">📈</div>
+            <h3>Performance Analytics</h3>
+            <p>
+                Analyze student performance easily.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <div class="about-image">
+
+        <img
+        src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80"
+        alt="University">
+
+    </div>
+
+
+    <div class="about-text">
+
+        <p class="label">ABOUT OUR INSTITUTION</p>
+
+        <h2>
+            Education Meets
+            <span>Technology</span>
+        </h2>
+
+        <p>
+            EduManage provides a modern digital platform
+            for educational institutions to manage students,
+            attendance, results, fees and communication.
+        </p>
+
+        <ul>
+
+            <li>✓ Modern Infrastructure</li>
+            <li>✓ Experienced Faculty</li>
+            <li>✓ Student-Centric Learning</li>
+
+        </ul>
+
+        <button class="btn-primary">
+            Learn More →
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- HOW IT WORKS -->
+
+<section class="section">
+
+    <p class="label">SIMPLE PROCESS</p>
+
+    <h2>How It <span>Works</span></h2>
+
+    <div class="steps">
+
+        <div class="step">
+            <b>01</b>
+            <h3>Create Account</h3>
+            <p>Register as a student or admin.</p>
+        </div>
+
+        <div class="line">→</div>
+
+        <div class="step">
+            <b>02</b>
+            <h3>Login</h3>
+            <p>Access your portal securely.</p>
+        </div>
+
+        <div class="line">→</div>
+
+        <div class="step">
+            <b>03</b>
+            <h3>Manage</h3>
+            <p>Manage your academic data.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PORTALS -->
+
+<section class="portals">
+
+    <p class="label">ACCESS YOUR PORTAL</p>
+
+    <h2>Choose Your <span>Portal</span></h2>
+
+    <div class="portal-grid">
+
+        <div class="portal admin">
+
+            <div class="portal-icon">👨‍💼</div>
+
+            <h3>Admin Portal</h3>
+
+            <p>
+                Manage students, attendance,
+                results, fees and notices.
+            </p>
+
+            <button>Admin Login →</button>
+
+        </div>
+
+
+        <div class="portal student">
+
+            <div class="portal-icon">👨‍🎓</div>
+
+            <h3>Student Portal</h3>
+
+            <p>
+                Check attendance, results,
+                fees and important notices.
+            </p>
+
+            <button>Student Login →</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- COURSES -->
+
+<section class="section" id="courses">
+
+    <p class="label">POPULAR COURSES</p>
+
+    <h2>Explore Our <span>Courses</span></h2>
+
+
+    <div class="course-grid">
+
+        <div class="course">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=700&q=80">
+            <h3>B.Tech CSE</h3>
+            <p>Computer Science</p>
+        </div>
+
+
+        <div class="course">
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80">
+            <h3>B.Tech Mechanical</h3>
+            <p>Engineering</p>
+        </div>
+
+
+        <div class="course">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=80">
+            <h3>BBA</h3>
+            <p>Management</p>
+        </div>
+
+
+        <div class="course">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=700&q=80">
+            <h3>B.Sc</h3>
+            <p>Science</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- NOTICES -->
+
+<section class="notices">
+
+    <p class="label">NOTICE BOARD</p>
+
+    <h2>Latest <span>Notices</span></h2>
+
+    <div class="notice-list">
+
+        <div>
+            📢 Semester Examination Schedule
+            <span>20 Sep 2026</span>
+        </div>
+
+        <div>
+            📢 Fee Submission Deadline
+            <span>18 Sep 2026</span>
+        </div>
+
+        <div>
+            📢 Holiday Announcement
+            <span>15 Sep 2026</span>
+        </div>
+
+        <div>
+            📢 New Admission Open
+            <span>10 Sep 2026</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <p class="label">CONTACT US</p>
+
+    <h2>Let's <span>Connect</span></h2>
+
+    <div class="contact-box">
+
+        <div>
+
+            <h3>EduManage</h3>
+
+            <p>📍 Jaipur, Rajasthan</p>
+            <p>📞 +91 XXXXX XXXXX</p>
+            <p>✉️ info@edumanage.com</p>
+
+        </div>
+
+
+        <form>
+
+            <input
+            type="text"
+            placeholder="Your Name">
+
+            <input
+            type="email"
+            placeholder="Your Email">
+
+            <textarea
+            placeholder="Your Message"></textarea>
+
+            <button>
+                Send Message →
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div>
+
+        <h2>🎓 EduManage</h2>
+
+        <p>
+            Smart Student Management System
+        </p>
+
+    </div>
+
+
+    <div>
+
+        <h4>Quick Links</h4>
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#courses">Courses</a>
+
+    </div>
+
+
+    <div>
+
+        <h4>Portals</h4>
+
+        <a href="#">Admin Login</a>
+        <a href="#">Student Login</a>
+
+    </div>
+
+
+    <div>
+
+        <h4>Contact</h4>
+
+        <p>📍 Jaipur, Rajasthan</p>
+        <p>📞 +91 XXXXX XXXXX</p>
+        <p>✉️ info@edumanage.com</p>
+
+    </div>
+
+</footer>
+
+
+<div class="copyright">
+
+    © 2026 EduManage — All Rights Reserved.
+
+</div>
+
+<!-- LOGIN MODAL -->
+<div class="modal" id="loginModal">
+    <div class="modal-box">
+        <button class="close-btn" onclick="closeLogin()">×</button>
+
+        <h2>Welcome to EduManage</h2>
+        <p>Choose your login portal</p>
+
+        <div class="login-tabs">
+            <button onclick="setRole('admin')">Admin</button>
+            <button onclick="setRole('student')">Student</button>
+        </div>
+
+        <form id="loginForm">
+            <input type="email" id="email"
+                placeholder="Email Address" required>
+
+            <input type="password" id="password"
+                placeholder="Password" required>
+
+            <button type="submit">Login →</button>
+            <p id="loginError"></p>
+        </form>
+    </div>
+</div>
+
+<!-- ADMIN DASHBOARD -->
+<section id="adminDashboard" class="dashboard-page">
+
+    <aside class="sidebar">
+        <h2>🎓 EduManage</h2>
+        <p>ADMIN PANEL</p>
+
+        <button onclick="showPanel('overview')">Dashboard</button>
+        <button onclick="showPanel('students')">Students</button>
+        <button onclick="showPanel('attendance')">Attendance</button>
+        <button onclick="showPanel('results')">Results</button>
+        <button onclick="showPanel('fees')">Fees</button>
+        <button onclick="showPanel('notices')">Notices</button>
+        <button onclick="logout()">Logout</button>
+    </aside>
+
+    <main class="admin-main">
+        <h1>Admin Dashboard</h1>
+        <p>Welcome to EduManage Administration</p>
+
+        <div id="overview" class="admin-panel">
+            <div class="admin-stats">
+                <div>Total Students <strong id="totalStudents">0</strong></div>
+                <div>Present Today <strong id="totalPresent">0</strong></div>
+                <div>Results <strong id="totalResults">0</strong></div>
+                <div>Fees Records <strong id="totalFees">0</strong></div>
+            </div>
+        </div>
+
+        <div id="students" class="admin-panel" hidden>
+            <h2>Student Management</h2>
+
+            <form id="studentForm">
+                <input id="studentName" placeholder="Student Name" required>
+                <input id="studentEmail" type="email" placeholder="Email" required>
+                <input id="studentCourse" placeholder="Course" required>
+                <button type="submit">Add Student</button>
+            </form>
+
+            <div id="studentList"></div>
+        </div>
+
+        <div id="attendance" class="admin-panel" hidden>
+            <h2>Attendance Management</h2>
+            <div id="attendanceList"></div>
+        </div>
+
+        <div id="results" class="admin-panel" hidden>
+            <h2>Result Management</h2>
+            <form id="resultForm">
+                <input id="resultName" placeholder="Student Name" required>
+                <input id="resultMarks" type="number"
+                    min="0" max="100" placeholder="Marks (0-100)" required>
+                <button type="submit">Save Result</button>
+            </form>
+            <div id="resultList"></div>
+        </div>
+
+        <div id="fees" class="admin-panel" hidden>
+            <h2>Fee Management</h2>
+            <form id="feeForm">
+                <input id="feeName" placeholder="Student Name" required>
+                <input id="feeAmount" type="number" min="1"
+                    placeholder="Fee Amount" required>
+                <select id="feeStatus">
+                    <option value="Paid">Paid</option>
+                    <option value="Pending">Pending</option>
+                </select>
+                <button type="submit">Save Fee</button>
+            </form>
+            <div id="feeList"></div>
+        </div>
+
+        <div id="notices" class="admin-panel" hidden>
+            <h2>Notice Management</h2>
+            <form id="noticeForm">
+                <input id="noticeTitle" placeholder="Notice Title" required>
+                <button type="submit">Publish Notice</button>
+            </form>
+            <div id="noticeList"></div>
+        </div>
+    </main>
+</section>
+
+<!-- STUDENT DASHBOARD -->
+<section id="studentDashboard" class="student-page">
+    <h1>🎓 Student Portal</h1>
+    <p>Welcome, <strong id="studentWelcome">Student</strong></p>
+
+    <div class="student-cards">
+        <div>
+            <h3>Attendance</h3>
+            <strong id="studentAttendance">0%</strong>
+        </div>
+        <div>
+            <h3>Results</h3>
+            <strong id="studentResult">No Result</strong>
+        </div>
+        <div>
+            <h3>Fees</h3>
+            <strong id="studentFee">Not Available</strong>
+        </div>
+    </div>
+
+    <button onclick="logout()">Logout</button>
+</section>
+<div class="copyright">
+
+    © 2026 EduManage — All Rights Reserved.
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+           
